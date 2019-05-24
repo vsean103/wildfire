@@ -7,8 +7,11 @@ Wildfire is considered one of the greatest destructive phenomena everywhere thro
 In spite of the prominence of wildfires, current wildfire monitoring is still a challenge. Thus, this project aims to leverage publicly available datasets and machine learning/deep learning techniques to help improve wildfire monitoring systems.
 
 * Goals: 
+
 ** First, this project aims to make prediction whether or not it will initiate a wildfire, given an initial condition of surronding environment.
+
 ** Second, this project aims to make prediction on wildfire trajectory.
+
 * Current stage: This repository contains python code for building data pipelines and parsers for required datasets that we need for this project.
 
 ## Getting Started
