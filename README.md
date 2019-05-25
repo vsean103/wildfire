@@ -12,24 +12,28 @@ In spite of the prominence of wildfires, current wildfire monitoring is still a 
 
 * Second, this project aims to make prediction on wildfire trajectory.
 
-### Current stage: This repository contains python code for building data pipelines and parsers for required datasets that we need for this project.
+### Current stage: 
+
+This repository contains python code for building data pipelines and parsers for required datasets that we need for this project.
 
 ## Getting Started
 
 
 ### Prerequisites
 
-Install required packages: 
-
-```
-Give examples
-```
-
-### Installing
+Some python packages/libraries: osgeo, gdal, glob, pyproj, h5py, pyhdf, numpy, pandas, os, gzip
 
 ## Data
 
-## Notes 
+The data that we have acquired so far is approximately 6 GBs so we cannot put them on here. The size is big because some datasets come in as image files like .tif or .hdf.
+
+The final dataset representing wildfire condition is made up of important features from 5 different data sources
+* MINX (plume data, location, date-time)
+* GRACE (underground water)
+* ESI (evaporative stress index)
+* MODIS (NDVI index), and 
+* ISD (air temperature and sea level pressure).
+
 
 ## Authors
 
