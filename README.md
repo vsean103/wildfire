@@ -34,7 +34,6 @@ The final dataset representing wildfire condition is made up of important featur
 * MODIS (NDVI index), and 
 * ISD (air temperature and sea level pressure).
 
-
 ## Authors
 
 * Viseth Sean
@@ -42,6 +41,18 @@ The final dataset representing wildfire condition is made up of important featur
 
 ## Acknowledgments
 
-* Collaborator: Nick LaHaye
-* Supervisors: Dr. Erik Linstead, Dr. Hesham El-Askary
+* Collaborator: Nick LaHaye (JPL, Chapman University)
+* Supervisors: Dr. Erik Linstead (Chapman University), Dr. Hesham El-Askary (Chapman University)
+* ISD guidance from: William Brown, Meteorologist, NOAA's National Centers for Environmental Information, Center for Weather and Climate
 
+## Challenges
+
+We need to manually download MINX plume dataset because there is no available tool to get data for a particular region/state at a given period of time, at this time of our work (2019). We need location and datetime of plume data to download the other datasets accordingly.
+
+To get more data:
+* MINX: we need the plume filenames corresponding to any particular area (e.g. state or country) to download from the Plume website. (https://misr.jpl.nasa.gov/getData/accessData/MisrMinxPlumes2)
+* GRACE: underground water data available from Jan 2008 to Jan 2015. (ftp://podaac-ftp.jpl.nasa.gov/allData/tellus/L3/gldas_monthly/ascii/)
+* MODIS: from location and datetime of plume in MINX, need to find the right block of horizontal and vertical region to download; data available from 2000 to present. ()
+* ESI: data available from 2001 to present. (https://gis1.servirglobal.net/data/esi/4WK/)
+* ISD: data available since 1900s to present. (ftp://ftp.ncdc.noaa.gov/pub/data/noaa/isd-lite/)
+Thus, it is best to get plume data that exists according to GRACE period (Jan 2008 to Jan 2015) because it’s the most limited dataset among the others.
