@@ -55,4 +55,5 @@ To get more data:
 * MODIS: from location and datetime of plume in MINX, need to find the right block of horizontal and vertical region to download; data available from 2000 to present. (https://e4ftl01.cr.usgs.gov/MOLT/MOD13Q1.006/)
 * ESI: data available from 2001 to present. (https://gis1.servirglobal.net/data/esi/4WK/)
 * ISD: data available since 1900s to present. (ftp://ftp.ncdc.noaa.gov/pub/data/noaa/isd-lite/)
+
 Thus, it is best to get plume data that exists according to GRACE period (Jan 2008 to Jan 2015) because it’s the most limited dataset among the others.
